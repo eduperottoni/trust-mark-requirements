@@ -8,7 +8,7 @@ on:
       - CONTRIBUTING.md
       - LICENSE.md
       - .gitignore
-    branches: ["*"]
+    branches: ["**"]
   release:
     types:
       - created
@@ -57,7 +57,7 @@ jobs:
           docker run -v `pwd`:/data danielfett/markdown2rfc openid-federation-trust-mark-requirements-1_0.md
       - name: rename
         run: |
-          mv ./openid-federation-trust-mark-requirements*.html ./html/$BRANCH_NAME.html
+          mv ./openid-federation-trust-mark-requirements*.html "./html/${BRANCH_NAME//\//-}.html"
 
       - name: Deploy to GitHub Pages
         if: success()

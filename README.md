@@ -5,10 +5,10 @@ This repository contains the "OpenID Federation Trust Mark Requirements" specifi
 ## Builds
 
 The latest editors' draft can be viewed at
-https://<github-user>.github.io/federation-trust-mark-requirements/main.html
+[https://eduperottoni.github.io/trust-mark-requirements/main.html](https://eduperottoni.github.io/trust-mark-requirements/main.html)
 
 Branches can be viewed at
-https://<github-user>.github.io/federation-trust-mark-requirements/{BRANCH-NAME}.html
+https://eduperottoni.github.io/trust-mark-requirements/{BRANCH-NAME}.html
 
 ## Build the HTML
 
